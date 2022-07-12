@@ -92,7 +92,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background:url(../pictures/background.jpg) no-repeat;
     background-size: initial;
     background-position: unset;
@@ -112,10 +112,9 @@ img {
 }
 
 .button {
-    font-size: 15rem;
-    height: 160px;
+    font-size: 100px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     font-weight: bold;
 }
   
@@ -150,11 +149,11 @@ img {
 }
 
 .click{
-	color:rgb(255, 255, 255);
+	color:rgb(0, 140, 215);
 	padding-top:1.8em;
 	display:inline-block;/* or block */
 	position:relative;
-	border-color:rgb(255, 255, 255);
+	border-color:rgb(0, 140, 215);
 	text-decoration:none ;
 	transition:all .3s ease-out;
     text-align: center;
@@ -169,7 +168,7 @@ img {
 	top:0;
 	left:50%;
 	margin-left:-.7rem;
-	border:solid 0.5rem rgb(255, 255, 255);
+	border:solid 0.5rem rgb(0, 140, 215);
 	border-radius:10rem;
 	width:1.4rem;
 	height:1.4rem;
@@ -178,8 +177,8 @@ img {
 	transition:transform .5s ease-in;
 }
 .click:hover{
-	color:rgb(255, 255, 255);
-	border-color:rgb(255, 255, 255);
+	color:rgb(0, 140, 215);
+	border-color:rgb(0, 140, 215);
 }
 .click:hover:before{
 	transform: rotate(360deg);
@@ -204,9 +203,10 @@ img {
 .a-pic{
     display: flex;
     align-items: center;
-    height: 600px;
+    height: 500px;
     width: 100%;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .about h1{
@@ -544,7 +544,7 @@ img {
     }
 
     .button {
-        font-size: 10rem;
+        font-size: 7rem;
         height: 160px;
         display: flex;
         align-items: flex-start;

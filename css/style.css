@@ -354,8 +354,8 @@ img {
 .social-logos .logo-img{
     height: 300px;
     width: 300px;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     object-fit: contain;
     transition: transform 1s;
 }

@@ -453,7 +453,7 @@ img {
 @media (max-width:768px){
 
     html{
-        font-size: 55%;
+        font-size: 50%;
     }
 }
 
@@ -467,7 +467,7 @@ img {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding:0 1rem;
+        padding:0 40px;
     }
 
     header #menu{

@@ -116,7 +116,6 @@ img {
     display: flex;
     align-items: center;
     font-weight: bold;
-    position: absolute;
 }
   
 @keyframes glitchTop{
@@ -153,7 +152,6 @@ img {
 	color:rgb(0, 21, 255);
 	padding-top:1.8em;
 	display:inline-block;/* or block */
-	position:absolute;
 	border-color:rgb(0, 21, 255);
 	text-decoration:none ;
 	transition:all .3s ease-out;
@@ -550,7 +548,6 @@ img {
         display: flex;
         align-items: flex-start;
         font-weight: bold;
-        position: absolute;
     }
     
     @keyframes glitchTop{
@@ -587,7 +584,6 @@ img {
         color:rgb(0, 21, 255);
         padding-top:1.8em;
         display:inline-block;/* or block */
-        position:absolute;
         border-color:rgb(0, 21, 255);
         text-decoration:none ;
         transition:all .3s ease-out;

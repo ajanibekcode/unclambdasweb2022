@@ -460,14 +460,14 @@ img {
 @media (max-width:500px){
 
     html{
-        font-size: 50%;
+        font-size: 45%;
     }
 
     header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding:0 40px;
+        padding:0 20px;
     }
 
     header #menu{
@@ -525,7 +525,7 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         background:url(../pictures/background.jpg) no-repeat;
         background-size: initial;
         background-position: unset;
@@ -533,7 +533,7 @@ img {
     }
 
     .logo {
-        height: 250px;
+        height: 150px;
         display: flex;
         align-items: center;
     }
@@ -544,8 +544,8 @@ img {
     }
 
     .button {
-        font-size: 7rem;
-        height: 160px;
+        font-size: 60px;
+        height: 90px;
         display: flex;
         align-items: flex-start;
         font-weight: bold;
@@ -582,11 +582,11 @@ img {
     }
 
     .click{
-        color:rgb(255, 255, 255);
+        color:rgb(0, 140, 215);
         padding-top:1.8em;
         display:inline-block;/* or block */
         position:relative;
-        border-color:rgb(255, 255, 255);
+        border-color:rgb(0, 140, 215);
         text-decoration:none ;
         transition:all .3s ease-out;
         text-align: center;
@@ -601,7 +601,7 @@ img {
         top:0;
         left:50%;
         margin-left:-.7rem;
-        border:solid 0.5rem rgb(255, 255, 255);
+        border:solid 0.5rem rgb(0, 140, 215);
         border-radius:10rem;
         width:1.4rem;
         height:1.4rem;
@@ -610,8 +610,8 @@ img {
         transition:transform .5s ease-in;
     }
     .click:hover{
-        color:rgb(255, 255, 255);
-        border-color:rgb(255, 255, 255);
+        color:rgb(0, 140, 215);
+        border-color:rgb(0, 140, 215);
     }
     .click:hover:before{
         transform: rotate(360deg);
@@ -637,7 +637,7 @@ img {
     .a-pic{
         display: flex;
         align-items: center;
-        height: 300px;
+        height: 200px;
         width: 100%;
         justify-content: center;
     }
@@ -646,7 +646,7 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 400px;
+        height: 300px;
         width: 100%;
         margin-top: 5rem;
     }
@@ -678,15 +678,15 @@ img {
     }
 
     .container-ah{
-    margin: 20px 40px;
-    color: black;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 500px;
+        margin: 20px 30px;
+        color: black;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 500px;
     }
 
     .profiles{
@@ -694,8 +694,8 @@ img {
         text-align: center;
         position: relative;
         transform-style: preserve-3d;
-        margin-bottom: 10rem;
         animation: rotate 20s linear infinite;
+        margin-top: 13rem;
     }
 
     @keyframes rotate{
@@ -713,16 +713,16 @@ img {
     }
 
     .profile{
-        width: 80px;
-        height: 80px;
+        width: 110px;
+        height: 110px;
         transform-origin: center;
         transform-style: preserve-3d;
         backface-visibility: hidden;
     }
 
     .profile .profile-img{
-        width:80px;
-        height:80px;
+        width:110px;
+        height:110px;
         object-fit:cover;
         object-position:50% 50%;
         filter: grayscale(100%);
@@ -771,13 +771,13 @@ img {
 
     .resources .rstatement1{
         width: 400px;
-        height: 550px;
+        height: 500px;
         margin: 50px 10px;
     }
 
     .resources .rstatement2{
         width: 330px;
-        height: 180px;
+        height: 160px;
         margin: -50px 10px;
     }
 

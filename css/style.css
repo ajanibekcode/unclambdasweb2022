@@ -149,11 +149,11 @@ img {
 }
 
 .click{
-	color:rgb(0, 140, 215);
+	color:rgb(0, 21, 255);
 	padding-top:1.8em;
 	display:inline-block;/* or block */
 	position:relative;
-	border-color:rgb(0, 140, 215);
+	border-color:rgb(0, 21, 255);
 	text-decoration:none ;
 	transition:all .3s ease-out;
     text-align: center;
@@ -168,7 +168,7 @@ img {
 	top:0;
 	left:50%;
 	margin-left:-.7rem;
-	border:solid 0.5rem rgb(0, 140, 215);
+	border:solid 0.5rem rgb(255, 255, 255);
 	border-radius:10rem;
 	width:1.4rem;
 	height:1.4rem;
@@ -177,8 +177,8 @@ img {
 	transition:transform .5s ease-in;
 }
 .click:hover{
-	color:rgb(0, 140, 215);
-	border-color:rgb(0, 140, 215);
+	color:rgb(255, 255, 255);
+	border-color:rgb(255, 255, 255);
 }
 .click:hover:before{
 	transform: rotate(360deg);
@@ -582,11 +582,11 @@ img {
     }
 
     .click{
-        color:rgb(0, 140, 215);
+        color:rgb(0, 21, 255);
         padding-top:1.8em;
         display:inline-block;/* or block */
         position:relative;
-        border-color:rgb(0, 140, 215);
+        border-color:rgb(0, 21, 255);
         text-decoration:none ;
         transition:all .3s ease-out;
         text-align: center;
@@ -601,7 +601,7 @@ img {
         top:0;
         left:50%;
         margin-left:-.7rem;
-        border:solid 0.5rem rgb(0, 140, 215);
+        border:solid 0.5rem rgb(0, 21, 255);
         border-radius:10rem;
         width:1.4rem;
         height:1.4rem;
@@ -610,8 +610,8 @@ img {
         transition:transform .5s ease-in;
     }
     .click:hover{
-        color:rgb(0, 140, 215);
-        border-color:rgb(0, 140, 215);
+        color:rgb(0, 21, 255);
+        border-color:rgb(0, 21, 255);
     }
     .click:hover:before{
         transform: rotate(360deg);

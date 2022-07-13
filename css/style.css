@@ -502,7 +502,6 @@ img {
         align-items: center;
         justify-content: center;
         background:rgb(0, 140, 215) no-repeat;
-        background-size: auto;
         background-position: center;
         background-attachment: fixed;
         margin-top: 5rem;
@@ -511,7 +510,7 @@ img {
     .a-pic{
         display: flex;
         align-items: center;
-        height: 250px;
+        height: 200px;
         width: 100%;
         justify-content: center;
     }
